@@ -2,8 +2,8 @@
  - hosts: all
    sudo: yes
    connection: ssh
-   -name:
-    service:
+   - name:
+     service:
       name: httpd
       state: restarted
 
