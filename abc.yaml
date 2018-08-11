@@ -1,7 +1,7 @@
 --- # its a sample
  - hosts: all
    sudo: yes
-   -name
+   -name:
     service:
       name: httpd
       state: restarted
