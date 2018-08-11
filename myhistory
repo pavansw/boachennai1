@@ -1,0 +1,12 @@
+  270  git clone https://github.com/pavansw/boachennai1.git
+  271  ls
+  272  cd boachennai1/
+  274  touch abc.yaml
+  276  vi abc.yaml 
+  277  ls
+  278  git add abc.yaml 
+  279  git commit -m "sample first commit"
+  280  git config --global user.email "pavanwankhade4u@gmail.com" 
+  281  git config --global user.name "pavansw"
+  282  git commit -m "sample first commit"
+  283  git push -u origin master
