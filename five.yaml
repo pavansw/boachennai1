@@ -1,7 +1,6 @@
 --- # 
  - hosts: boa
-   remote_user: ansible
-   become: yes
+   sudo: yes
    connection: ssh
    vars:
      motd_value: "{{ lookup('file','/tmp/abc.txt') }}"
