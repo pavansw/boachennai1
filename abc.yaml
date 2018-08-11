@@ -1,5 +1,8 @@
 --- # its a sample
  - hosts: all
+   sudo: yes
    -name
-    service
+    service:
+      name: httpd
+      state: restarted
 
