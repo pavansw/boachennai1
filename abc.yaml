@@ -1,8 +1,8 @@
 --- # its a sample
  - hosts: all
- tasks: 
-  - name:
-    service:
+   tasks: 
+   - name:
+     service:
       name: httpd
       state: restarted
 
