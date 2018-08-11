@@ -1,3 +1,5 @@
 --- # its a sample
  - hosts: all
+   -name
+    service
 
