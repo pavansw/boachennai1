@@ -1,7 +1,5 @@
 --- # its a sample
  - hosts: all
-   sudo: yes
-   connection: ssh
    - name:
      service:
       name: httpd
